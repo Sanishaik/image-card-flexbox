@@ -1,0 +1,54 @@
+.card{
+    width: 300px;
+    border:10px solid black; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* Different card background colors */
+.card:nth-child(1){
+    background-color: lightpink;  
+}
+
+.card:nth-child(2){
+    background-color: lightblue;   
+}
+
+.card:nth-child(3){
+    background-color: lightgreen;  
+}
+
+img{
+    width: 100%;
+    height:200px;
+}
+
+.container {
+    background-color:bisque;
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* Paragraph styling */
+.card p {
+    flex: 1;
+    margin: 10px;
+    color: black   /* dark text */
+}
+
+/* Button styling */
+button {
+    margin: 10px;
+    margin-top: auto;
+    align-self: flex-start;
+
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
